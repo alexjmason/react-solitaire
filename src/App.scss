@@ -29,9 +29,25 @@ $highlight: #38E4AE;
   color: $highlight;
 }
 
+.game-board {
+  background-color: $vibrant;
+}
+
+.play-card {
+  // background-color: $darker;
+  width: 10vw;
+  max-width: 200px;
+  min-width: 80px;
+}
+
+.play-card img {
+  width: 100%;
+  height: auto;
+}
+
 .App-content {
   background-color: #ffffff;
-  min-height: 100vh;
+  height: calc(100vh - 80px);
 }
 
 @keyframes App-logo-spin {
